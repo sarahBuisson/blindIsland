@@ -23,8 +23,6 @@ Hello Worldapp.js
 <div ng-repeat="objet in objets"
      descriptionDirective="objet" nom="xx">d
 </div>
-
-
 <descriptionDirective/>
 </body>
 </html>
