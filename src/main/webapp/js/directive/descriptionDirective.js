@@ -1,8 +1,8 @@
 "use strict";
 
-angular.module('blindIsland').directive('descriptionDirective', function ($scope) {
+angular.module('blindIsland').directive('descriptionDirective', function () {
     return {
-        restrict: 'A',
+        restrict: 'EAC',
         scope: {
             objet: '=',
             nom: '='
